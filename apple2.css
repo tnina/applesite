@@ -1,0 +1,273 @@
+body {
+    background-color: #fff;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Helvetica","Arial","sans-serif";
+    font-size: 16px;
+    line-height: 1.45;
+    color: #333;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 1em 1.5em;
+    color: #555;
+}
+
+.main {
+    background-image: url('images/hero_large.jpg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1440px;
+    height: 678px;
+    /*line-height: 678px;*/
+    text-align: center;
+}
+
+.globalHeader {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 0;
+    height: 2.5em;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.6);
+}
+
+.ghNav a {
+    margin: 0 30px;
+    width: 980px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: .9em;
+    height: 46px;
+    line-height: 46px;
+    
+}
+
+.subnav {
+    height: 135px;
+    background: rgba(255,255,255,0.6);
+    text-align: center;
+}
+
+.subnav ul, .subnav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.subnav a {
+    display: block;
+    height: 113px;
+    color: #666;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 23px;
+    vertical-align: bottom;
+    line-height: 124px;
+    font-size: .7em;
+}
+
+.subnav ul {
+    width: 692px;
+    padding-top: 10px;
+}
+
+.subnav li:nth-of-type(1) {
+    background-image: url('images/icon_iphone_6.png');
+    background-repeat: no-repeat;
+}
+
+.subnav li:nth-of-type(2) {
+    background-image: url('images/iphone_accessories.png');
+    background-repeat: no-repeat;
+}
+
+.subnav li:nth-of-type(3) {
+    background-image: url('images/compare.png');
+    background-repeat: no-repeat;
+}
+
+.subnav li:nth-of-type(4) {
+    background-image: url('images/ios.png');
+    background-repeat: no-repeat;    
+}
+
+.subnav li:nth-of-type(5) {
+    background-image: url('images/icloud.png');
+    background-repeat: no-repeat;    
+}
+
+.subnav a:hover {
+    color: #333;
+}
+
+.threeCol {
+    width: 1440px;
+    display: block;
+}
+
+.threeCol a {
+    display: inline-block;
+    width: 477px;
+    height: 282px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.threeCol a:nth-of-type(1) {
+    background-image: url('images/tile1.jpg');
+}
+.threeCol a:nth-of-type(2) {
+    background-image: url('images/tile2.jpg');
+}
+.threeCol a:nth-of-type(3) {
+    background-image: url('images/tile3.jpg');
+}
+
+.threeCol a img {
+    position: absolute;
+    top: 186px;
+    right: 62px;
+}
+
+.twoCol {
+    margin-top: 30px;
+}
+
+.twoCol a {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    text-align: center;
+    color: #555;
+}
+
+.twoCol a:first-of-type {
+    background: url('images/support_large.jpg') bottom center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+
+}
+
+.twoCol a:last-of-type {
+    background: url('images/iphone_business_large.png') bottom center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+
+}
+
+.twoCol span:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #08c;
+}
+
+/*.twoCol .divider {
+    background: #d6d6d6;
+    width: 1px;
+    top: 0px;
+    left: 50%;
+    bottom: 50px;
+}*/
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    background: #f2f2f2;
+    padding: 60px 22px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.buystrip a {
+    background-image: url('images/buystrip_hero_large.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: center;
+    width: 980px;
+    height: 220px;
+    text-decoration: none;
+    text-align: center left;
+    color: #555;
+}
+
+.buystripblocks {
+    display: block;
+    width: 1000px;  /* 980px;  */
+    height: 277px;
+}
+
+.buystripblocks div {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 208px;
+    height: 277px;
+    margin: 80px 18px 0 18px;
+    padding-bottom: 1.7em;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.buystripblocks a {
+    text-decoration: none;
+}
+
+.buystripblocks div:nth-of-type(1) {
+    background-image: url('images/buystrip_online_large.png');
+}
+
+.buystripblocks div:nth-of-type(2) {
+    background-image: url('images/buystrip_retail_large.png');
+}
+
+.buystripblocks div:nth-of-type(3) {
+    background-image: url('images/buystrip_call_large.png');
+}
+
+.buystripblocks div:nth-of-type(4) {
+    background-image: url('images/buystrip_app_large.jpg');
+}
+
+.btmnav {
+    display: block;
+    
+}
+
+.btmnav div {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center left;
+    color: #555;
+}
+
+.btmnav ul, .btmnav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
